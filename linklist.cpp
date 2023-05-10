@@ -21,6 +21,29 @@ this->next = NULL;
  }
 };
 // Linked list class to
+/ single linked list.
+#include <iostream.h>
+#include<conio.h>
+// Node class to represent
+// a node of the linked list.
+class Node {
+public:
+ int data;
+ Node* next;
+ // Default constructor
+ Node()
+ {
+data = 0;
+next = NULL;
+ }
+ // Parameterised Constructor
+ Node(int data)
+ {
+this->data = data;
+this->next = NULL;
+ }
+};
+// Linked list class to
 class Linkedlist {
  Node* head;
 public:
