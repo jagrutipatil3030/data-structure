@@ -27,7 +27,7 @@ void linear1 :: show ()
 {
   cout<<"Enter Element to Search";
     cin>>ele;
-  for(i=0;I,size;i++)
+  for(i=0;i<size;i++)
   {
     if(arr[i]==ele)
     {
